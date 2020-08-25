@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DAMJAGO</string>
+    <string name="Registrasi">REGISTER</string>
+
+    <string-array name="gender_list">
+        <item>𝐏𝐢𝐥𝐢𝐡 𝐊𝐞𝐥𝐚𝐦𝐢𝐧</item>
+        <item>𝐋𝐚𝐤𝐢 𝐋𝐚𝐤𝐢</item>
+        <item>𝐏𝐞𝐫𝐞𝐦𝐩𝐮𝐚𝐧</item>
+    </string-array>
+</resources>

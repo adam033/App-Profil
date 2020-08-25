@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:fontFamily="casual"
+            android:text="𝐑 𝐄 𝐆 𝐈 𝐒 𝐓 𝐄 𝐑 ☾"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            android:paddingBottom="10dp"
+            />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="𝐍 𝐀 𝐌 𝐀"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="#CCCCCC" />
+
+        <Spinner
+            android:id="@+id/spinnerGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:entries="@array/gender_list"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="𝐄 𝐌 𝐀 𝐈 𝐋"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:textColor="#000000"
+            android:textColorHint="#CCCCCC" />
+
+        <EditText
+            android:id="@+id/edtTelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="𝐓 𝐄 𝐋 𝐏"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textColorHint="#CCCCCC" />
+
+        <EditText
+            android:id="@+id/edtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            android:gravity="top"
+            android:hint="𝐀 𝐋 𝐀 𝐌 𝐀 𝐓"
+            android:imeOptions="actionDone"
+            android:inputType="textMultiLine"
+            android:textColor="#000000"
+            android:textColorHint="#CCCCCC" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:background="@android:color/background_dark"
+            android:text="𝐒𝐢𝐦𝐩𝐚𝐧"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#CCCCCC" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
